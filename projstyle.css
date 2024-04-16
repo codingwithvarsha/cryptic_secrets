@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(250, 248, 248);
+}
+h1{
+    font-family: oleo script;
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    font-family: unica one;
+    text-align: center;
+}
+.links{
+    font-family: Advent Pro;
+    font-weight: bold;
+    font-size: 15px;
+}
+body{
+    height: 100px;
+    background-color: rgb(247, 244, 244);
+    color: rgb(2, 2, 2);
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+a:hover{
+    color:blueviolet;
+}
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+.navbar{
+    width: 200%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    border: solid 2px blueviolet;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar .logo a{
+    font-family: oleo script;
+    font-size: 28px;
+    font-weight: bold;
+}
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+.navbar .toggle{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.action{
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    font-family: advent pro;
+}
+
+.action:hover{
+    scale: 1.05;
+    color: #fff;
+}
+
+.action:active{
+    scale: 0.95;
+}
+
+/* responsive display */
+
+#start{
+    padding: 10%;
+    padding-top: 20px;
+    height:100vh ;
+    border: 2px solid blueviolet;
+    
+}  
+#video{
+    width: 250px;
+    height: 150px;
+}
+/* .center{
+    background-image: https://www.canva.com/design/DAGCOD7DZzg/j8Tvvu7nSKAVBgDWzEO5sw/edit?utm_content=DAGCOD7DZzg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton;
+    
+} */
+#center{
+    background-image: url(pic.jpg);
+    background-size: contain;
+}
