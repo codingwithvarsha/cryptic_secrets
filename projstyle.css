@@ -23,8 +23,8 @@ body{
     background-color: rgb(247, 244, 244);
     color: rgb(2, 2, 2);
 }
-li{
-    list-style: none;
+#nav{
+    list-style:none;
 }
 a{
     text-decoration: none;
@@ -59,6 +59,7 @@ header{
 .navbar .links{
     display: flex;
     gap: 2rem;
+    
 }
 .navbar .toggle{
     color: #fff;
@@ -99,15 +100,11 @@ header{
     border: 2px solid blueviolet;
     
 }  
-#video{
-    width: 250px;
-    height: 150px;
+
+#key{
+    font-size: 33px;
+    font-family: unica one;
 }
-/* .center{
-    background-image: https://www.canva.com/design/DAGCOD7DZzg/j8Tvvu7nSKAVBgDWzEO5sw/edit?utm_content=DAGCOD7DZzg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton;
-    
-} */
-#center{
-    background-image: url(pic.jpg);
-    background-size: contain;
+#content{
+    padding: 5%;
 }
