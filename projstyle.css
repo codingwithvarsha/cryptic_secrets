@@ -91,20 +91,81 @@ header{
     scale: 0.95;
 }
 
-/* responsive display */
 
 #start{
-    padding: 10%;
+     padding: 54px;  /* modification in padding  */
     padding-top: 20px;
     height:100vh ;
     border: 2px solid blueviolet;
-    
-}  
+}
+
+.image {     /*modification in background image */
+    height: 500px;
+    width: 194vh;
+    border: 1px solid blueviolet;
+    top: 500px;
+    right: 1000px;
+    background-image: url(images/pic.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-left: 500px;
+}
+
+.image img{
+    max-width: 100%;
+    height: auto;
+}
 
 #key{
     font-size: 33px;
-    font-family: unica one;
+    font-family: 'unica one' , sans-serif; /* added font family*/
+    text-align: center;
+    color: rgb(63, 9, 113);  /*changed color*/
+    margin-bottom: 20px;
 }
+
+#options {
+    font-size: 33px;
+    font-family: 'unica one', sans-serif;  /* added font family*/
+    text-align: center;
+    color: rgb(63, 9, 113);  /*changed color*/
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'Titillium Web';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
 #content{
-    padding: 5%;
+    padding: 20px;
+    border: 2px solid blueviolet;
+    margin-top: 20px;
+    font-weight: 600;  /* giving weigth to appear or to see clearly*/
+}
+
+ul {
+    list-style-type: disc; /* Use disc bullets for list items */
+    margin-left: 30px; /* Adjust the margin as needed */
+    padding-left: 20px; /* Add padding for better spacing */
+}
+
+ul li {
+    font-size: 18px;
+    font-family: 'Titillium Web', 'Advent Pro', sans-serif; /*font family based on keyheading*/
+    color: rgb(51, 51, 51); /* Adjust color as desired */
+    margin-bottom: 10px; /* Adjust spacing between list items */
+}
+
+ul li a {
+    color: rgb(97, 17, 172); /* Change link color as desired */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for link color change */
+    font-size: 18px;
+    font-family: 'Titillium Web';
+}
+
+ul li a:hover {
+    color: rgb(30, 7, 41); /* Change hover color as desired */
 }
