@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(250, 248, 248);
+}
+
+h1 {
+    font-family: 'oleo script', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'unica one', sans-serif;
+    text-align: center;
+}
+
+.links {
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(247, 244, 244);
+    color: rgb(2, 2, 2);
+}
+
+#nav {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    border: 2px solid blueviolet;
+    padding: 10px;
+}
+
+.navbar .logo a {
+    font-family: 'oleo script', cursive;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .toggle {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.action {
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2s ease;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.action:hover {
+    transform: scale(1.05);
+}
+
+.action:active {
+    transform: scale(0.95);
+}
+
+/* responsive display */
+
+#start {
+    padding: 10%;
+    padding-top: 20px;
+    height: 100vh;
+    border: 2px solid blueviolet;
+}
+
+.image {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+#key {
+    font-size: 24px;
+    font-family: 'unica one', sans-serif;
+    text-align: center;
+    color: blueviolet; /* Change color as desired */
+    margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+#options {
+    font-size: 24px;
+    font-family: 'unica one', sans-serif;
+    text-align: center;
+    color: blueviolet; /* Change color as desired */
+    margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+#content {
+    padding: 20px; /* Add padding for content */
+    border: 2px solid blueviolet; /* Add border */
+    margin-top: 20px; /* Adjust margin from the upper section */
+}
+
+ul {
+    list-style-type: disc; /* Use disc bullets for list items */
+    margin-left: 30px; /* Adjust the margin as needed */
+    padding-left: 20px; /* Add padding for better spacing */
+}
+
+ul li {
+    font-size: 18px;
+    font-family: 'Advent Pro', sans-serif;
+    color: rgb(51, 51, 51); /* Adjust color as desired */
+    margin-bottom: 10px; /* Adjust spacing between list items */
+}
+
+ul li a {
+    color: blueviolet; /* Change link color as desired */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for link color change */
+}
+
+ul li a:hover {
+    color: darkorchid; /* Change hover color as desired */
+}
+
+
