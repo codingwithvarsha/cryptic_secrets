@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(250, 248, 248);
+    background-color: rgb(21, 7, 48);
 }
 
 h1 {
@@ -163,5 +163,32 @@ ul li a {
 ul li a:hover {
     color: darkorchid; /* Change hover color as desired */
 }
+/* Add styling for the theme-changing button */
+/* #theme-toggle {
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2s ease;
+    font-family: 'Advent Pro', sans-serif;
+} */
 
+/* #theme-toggle:hover {
+    transform: scale(1.05);
+}
 
+#theme-toggle:active {
+    transform: scale(0.95);
+}
+
+Define styles for dark theme */
+
+/* #dark-theme {
+    background-color: #000;
+    color: #fff;
+} */
