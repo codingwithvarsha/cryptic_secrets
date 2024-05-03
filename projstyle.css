@@ -1,74 +1,83 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     background-color: rgb(250, 248, 248);
 }
-h1{
-    font-family: oleo script;
+
+h1 {
+    font-family: 'oleo script', cursive;
     text-align: center;
     font-size: 50px;
 }
-h2{
-    font-family: unica one;
+
+h2 {
+    font-family: 'unica one', sans-serif;
     text-align: center;
 }
-.links{
-    font-family: Advent Pro;
+
+.links {
+    font-family: 'Advent Pro', sans-serif;
     font-weight: bold;
     font-size: 15px;
 }
-body{
-    height: 100px;
+
+body {
+    height: 100%;
     background-color: rgb(247, 244, 244);
     color: rgb(2, 2, 2);
 }
-#nav{
-    list-style:none;
+
+#nav {
+    list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 1rem;
 }
-a:hover{
-    color:blueviolet;
+
+a:hover {
+    color: blueviolet;
 }
-header{
+
+header {
     position: relative;
     padding: 0 2rem;
 }
-.navbar{
-    width: 200%;
-    height: 60px;
+
+.navbar {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 20px;
-    border: solid 2px blueviolet;
-    padding-left: 10px;
-    padding-right: 10px;
+    border: 2px solid blueviolet;
+    padding: 10px;
 }
-.navbar .logo a{
-    font-family: oleo script;
+
+.navbar .logo a {
+    font-family: 'oleo script', cursive;
     font-size: 28px;
     font-weight: bold;
 }
-.navbar .links{
+
+.navbar .links {
     display: flex;
     gap: 2rem;
-    
 }
-.navbar .toggle{
+
+.navbar .toggle {
     color: #fff;
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
 }
 
-.action{
+.action {
     background-color: blueviolet;
     color: white;
     padding: 0.5rem 1rem;
@@ -78,30 +87,30 @@ header{
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
-    transition: scale 0.2 ease;
-    font-family: advent pro;
+    transition: scale 0.2s ease;
+    font-family: 'Advent Pro', sans-serif;
 }
 
-.action:hover{
-    scale: 1.05;
-    color: #fff;
+.action:hover {
+    transform: scale(1.05);
 }
 
-.action:active{
-    scale: 0.95;
+.action:active {
+    transform: scale(0.95);
 }
 
+/* responsive display */
 
-#start{
-     padding: 54px;  /* modification in padding  */
+#start {
+    padding: 10%;
     padding-top: 20px;
-    height:100vh ;
+    height: 100vh;
     border: 2px solid blueviolet;
 }
 
-.image {     /*modification in background image */
+.image {
     height: 500px;
-    width: 194vh;
+    width: 100%;
     border: 1px solid blueviolet;
     top: 500px;
     right: 1000px;
@@ -111,38 +120,30 @@ header{
     padding-left: 500px;
 }
 
-.image img{
+.image img {
     max-width: 100%;
     height: auto;
 }
-
-#key{
-    font-size: 33px;
-    font-family: 'unica one' , sans-serif; /* added font family*/
+#key {
+    font-size: 24px;
+    font-family: 'unica one', sans-serif;
     text-align: center;
-    color: rgb(63, 9, 113);  /*changed color*/
-    margin-bottom: 20px;
+    color: blueviolet; /* Change color as desired */
+    margin-bottom: 20px; /* Adjust spacing as needed */
 }
 
 #options {
-    font-size: 33px;
-    font-family: 'unica one', sans-serif;  /* added font family*/
+    font-size: 24px;
+    font-family: 'unica one', sans-serif;
     text-align: center;
-    color: rgb(63, 9, 113);  /*changed color*/
-    margin-bottom: 20px;
-}
-p{
-    font-family: 'Titillium Web';
-    font-weight: 500;
-    font-size: 20px;
-    text-align: center;
+    color: blueviolet; /* Change color as desired */
+    margin-bottom: 20px; /* Adjust spacing as needed */
 }
 
-#content{
-    padding: 20px;
-    border: 2px solid blueviolet;
-    margin-top: 20px;
-    font-weight: 600;  /* giving weigth to appear or to see clearly*/
+#content {
+    padding: 20px; /* Add padding for content */
+    border: 2px solid blueviolet; /* Add border */
+    margin-top: 20px; /* Adjust margin from the upper section */
 }
 
 ul {
@@ -153,19 +154,17 @@ ul {
 
 ul li {
     font-size: 18px;
-    font-family: 'Titillium Web', 'Advent Pro', sans-serif; /*font family based on keyheading*/
+    font-family: 'Advent Pro', sans-serif;
     color: rgb(51, 51, 51); /* Adjust color as desired */
     margin-bottom: 10px; /* Adjust spacing between list items */
 }
 
 ul li a {
-    color: rgb(97, 17, 172); /* Change link color as desired */
+    color: blueviolet; /* Change link color as desired */
     text-decoration: none;
     transition: color 0.3s ease; /* Smooth transition for link color change */
-    font-size: 18px;
-    font-family: 'Titillium Web';
 }
 
 ul li a:hover {
-    color: rgb(30, 7, 41); /* Change hover color as desired */
+    color: darkorchid; /* Change hover color as desired */
 }
