@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#main_heading{
+    font-family: 'oleo script', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'unica one', sans-serif;
+    text-align: center;
+}
+
+.links {
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+body {
+    height: 100%;
+    background-color: #fff0f3;
+    color: rgb(0, 0, 0);
+}
+
+#nav {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    border: 2px solid blueviolet;
+    padding: 10px;
+}
+
+.navbar .logo a {
+    font-family: 'oleo script', cursive;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .toggle {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.action {
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2s ease;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.action:hover {
+    transform: scale(1.05);
+}
+
+.action:active {
+    transform: scale(0.95);
+}
+
+/* responsive display */
+
+#start {
+    padding: 10%;
+    padding-top: 20px;
+    height: 100vh;
+    border: 2px solid blueviolet;
+}
+
+.image {
+    height: 500px;
+    width: 100%;
+    border: 1px solid blueviolet;
+    top: 500px;
+    right: 1000px;
+    background-image: url(images/pic.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-left: 500px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+#key {
+    font-size: 24px;
+    font-family: 'unica one', sans-serif;
+    text-align: center;
+    color: blueviolet; /* Change color as desired */
+    margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+#options {
+    font-size: 24px;
+    font-family: 'unica one', sans-serif;
+    text-align: center;
+    color: blueviolet; /* Change color as desired */
+    margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+#content {
+    padding: 20px; /* Add padding for content */
+    border: 2px solid blueviolet; /* Add border */
+    margin-top: 20px; /* Adjust margin from the upper section */
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+ul {
+    list-style-type: disc; /* Use disc bullets for list items */
+    margin-left: 30px; /* Adjust the margin as needed */
+    padding-left: 20px; /* Add padding for better spacing */
+}
+
+ul li {
+    font-size: 18px;
+    font-family: 'Advent Pro', sans-serif;
+    color: rgb(51, 51, 51); /* Adjust color as desired */
+    margin-bottom: 10px; /* Adjust spacing between list items */
+}
+
+ul li a {
+    color: blueviolet; /* Change link color as desired */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for link color change */
+}
+
+ul li a:hover {
+    color: darkorchid; /* Change hover color as desired */
+}
+
+/* -----type----- */
+.categories{
+    width: 80% ;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px ;
+
+}
+
+#sub_heading1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p{
+    color:black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.type-col{
+    flex-basis: 31%;
+    background: plum;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.type-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
+.eg_ty1 , .eg_ty2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.eg_col{
+    flex-basis: 32%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.eg_col img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+     background:rgba(226,0,0,0.5);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+/* Add styling for the theme-changing button */
+ /* #theme-toggle {
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2s ease;
+    font-family: 'Advent Pro', sans-serif;
+} 
+
+ #theme-toggle:hover {
+    transform: scale(1.05);
+}
+
+#theme-toggle:active {
+    transform: scale(0.95);
+}
+
+/* Define styles for dark theme  */
+
+ /* #dark-theme {
+    background-color: #000;
+    color: #fff;
+}  */ 
+
+.checkbox-wrapper-41 {
+    --size: 100px;
+  }
+  
+  .checkbox-wrapper-41 input[type="checkbox"] {
+    -webkit-appearance: none;
+    width: var(--size);
+    height: calc(var(--size) / 2);
+    background-color: #fff;
+    border: 3px solid #222;
+    border-radius: 30px 100px 100px 100px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s;
+  }
+  
+  .checkbox-wrapper-41 input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    width: calc(var(--size) / 2);
+    height: calc(var(--size) / 2);
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) scale(0.7);
+    border: 3px solid #222;
+    border-radius: 30px 100px 100px 100px;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    transition: all 0.5s;
+  }
+  
+  .checkbox-wrapper-41 input[type="checkbox"]:checked {
+    background-color: blueviolet;
+    border-radius: 100px 100px 30px 100px;
+  }
+  
+  .checkbox-wrapper-41 input[type="checkbox"]:checked::before {
+    left: 50%;
+    background-color: #fff;
+    border-radius: 100px 100px 30px 100px;
+  }
